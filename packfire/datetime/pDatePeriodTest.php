@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/../../../packfire/packfire/datetime/pDatePeriod.php';
+require_once __ROOT__ . 'datetime/pDatePeriod.php';
 
 /**
  * Test class for pDatePeriod.

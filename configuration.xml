@@ -11,9 +11,12 @@
 
 <phpunit bootstrap="bootstrap.php"
     colors="false">
-  <testsuites>
-    <testsuite name="Packfire">
-      <directory>packfire</directory>
-    </testsuite>
-  </testsuites>
+    <testsuites>
+        <testsuite name="Packfire">
+            <directory>packfire</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const name="__ROOT__" value="D:/wamp/www/packfire/packfire/" />
+    </php>
 </phpunit>

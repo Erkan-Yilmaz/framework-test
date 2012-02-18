@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/../../../../packfire/packfire/net/http/pHttpMethod.php';
+require_once __ROOT__ . 'net/http/pHttpMethod.php';
 
 /**
  * Test class for pHttpMethod.

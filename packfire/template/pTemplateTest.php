@@ -1,6 +1,5 @@
 <?php
-
-require_once dirname(__FILE__) . '/../../packfire/packfire/pTemplate.php';
+require_once __ROOT__ . 'template/pTemplate.php';
 
 /**
  * Test class for pTemplate.

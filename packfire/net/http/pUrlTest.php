@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/../../../../packfire/packfire/net/http/pUrl.php';
+require_once __ROOT__ . 'net/http/pUrl.php';
 
 /**
  * Test class for pUrl.

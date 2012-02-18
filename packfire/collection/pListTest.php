@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/../../../packfire/packfire/collection/pList.php';
+require_once __ROOT__ . 'collection/pList.php';
 
 /**
  * Test class for pList.
